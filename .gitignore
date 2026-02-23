@@ -1,3 +1,6 @@
+# Environment (contains PAT — never commit)
+.env
+
 # Output files (generated user stories)
 output/*.md
 
