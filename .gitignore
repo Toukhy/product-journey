@@ -1,0 +1,10 @@
+# Output files (generated user stories)
+output/*.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/

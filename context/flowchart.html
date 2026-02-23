@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Story Journey — Product Manager Perspective</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+    <style>
+        :root {
+            --primary: #4f46e5;
+            --primary-light: #e0e7ff;
+            --surface: #ffffff;
+            --bg: #f1f5f9;
+            --text: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --accent-intake: #6366f1;
+            --accent-validation: #f59e0b;
+            --accent-research: #3b82f6;
+            --accent-story: #8b5cf6;
+            --accent-ux: #ec4899;
+            --accent-tech: #14b8a6;
+            --accent-dev: #f97316;
+            --accent-uat: #ef4444;
+            --accent-deploy: #22c55e;
+            --accent-help: #06b6d4;
+            --accent-backlog: #d97706;
+            --accent-release: #10b981;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        /* Hero Header */
+        .hero {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #a855f7 100%);
+            color: white;
+            padding: 3.5rem 2rem 3rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at 30% 50%, rgba(255,255,255,0.08) 0%, transparent 50%),
+                        radial-gradient(circle at 70% 80%, rgba(255,255,255,0.05) 0%, transparent 40%);
+            pointer-events: none;
+        }
+
+        .hero h1 {
+            font-size: 2.4rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 0.5rem;
+            position: relative;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            opacity: 0.85;
+            font-weight: 400;
+            position: relative;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem 4rem;
+        }
+
+        /* Section titles */
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+        }
+
+        .section-title .icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            flex-shrink: 0;
+        }
+
+        /* Flowchart Card */
+        .flowchart-card {
+            background: var(--surface);
+            border-radius: 16px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 8px 24px rgba(0,0,0,0.04);
+            padding: 2.5rem 2rem;
+            margin-bottom: 3rem;
+            overflow-x: auto;
+        }
+
+        .flowchart-card .mermaid {
+            display: flex;
+            justify-content: center;
+        }
+
+        .flowchart-card .mermaid svg {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Phase cards grid */
+        .phases-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+            gap: 1.25rem;
+        }
+
+        .phase-card {
+            background: var(--surface);
+            border-radius: 14px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05), 0 4px 12px rgba(0,0,0,0.03);
+            padding: 1.5rem;
+            border-left: 4px solid var(--card-accent, var(--primary));
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+
+        .phase-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08), 0 12px 32px rgba(0,0,0,0.06);
+        }
+
+        .phase-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .phase-number {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: white;
+            flex-shrink: 0;
+            background: var(--card-accent, var(--primary));
+        }
+
+        .phase-name {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--text);
+        }
+
+        .phase-tag {
+            font-size: 0.7rem;
+            font-weight: 600;
+            padding: 0.15rem 0.5rem;
+            border-radius: 999px;
+            background: var(--primary-light);
+            color: var(--primary);
+            margin-left: auto;
+            white-space: nowrap;
+        }
+
+        .phase-description {
+            font-size: 0.92rem;
+            color: var(--text-muted);
+            line-height: 1.65;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+            margin-top: 1rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero { padding: 2.5rem 1.25rem 2rem; }
+            .hero h1 { font-size: 1.7rem; }
+            .container { padding: 1.5rem 1rem 3rem; }
+            .phases-grid { grid-template-columns: 1fr; }
+            .flowchart-card { padding: 1.5rem 1rem; }
+        }
+
+        @media print {
+            .hero { background: #4f46e5 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+            .phase-card { break-inside: avoid; }
+        }
+    </style>
+</head>
+<body>
+
+<header class="hero">
+    <h1>User Story Journey</h1>
+    <p>Product Manager Perspective &mdash; From Idea to Release</p>
+</header>
+
+<div class="container">
+
+    <!-- Flowchart -->
+    <h2 class="section-title">
+        <span class="icon" style="background:#e0e7ff;color:#4f46e5;">&#9654;</span>
+        Process Flowchart
+    </h2>
+
+    <div class="flowchart-card">
+        <pre class="mermaid">
+flowchart TD
+    A(["💡 Idea / Client Request"]):::startEnd --> B{"Source"}:::decision
+    B -->|"CX Team"| C["Receive Request from CX Team"]:::intake
+    B -->|"Sales Team"| D["Receive Request from Sales Team"]:::intake
+    B -->|"Own Idea"| E["Internal Product Idea"]:::intake
+
+    C --> F["Validate the Idea"]:::validation
+    D --> F
+    E --> F
+
+    F --> F1["Check How It Can Be Implemented in Our System"]:::validation
+    F1 --> FA{"Aligns with Company OKRs?"}:::decision
+    FA -->|"No"| FB["Add to Backlog for Later"]:::backlog
+    FA -->|"Yes"| FC{"Matches Company Strategy?"}:::decision
+    FC -->|"No"| FB
+    FC -->|"Yes"| FD{"Supports Revenue or Growth Goals?"}:::decision
+    FD -->|"No"| FB
+    FD -->|"Yes"| F3["Evaluate Product Fit Across All Client Base"]:::validation
+    F3 --> F4{"Usable by All Clients?"}:::decision
+    F4 -->|"No — Niche"| F5["Assess If It Can Be Adapted for Broader Use"]:::validation
+    F5 --> F4
+    F4 -->|"Yes"| F6{"Large Enough for Full Research?"}:::decision
+    F6 -->|"Yes"| G["Market Research"]:::research
+    F6 -->|"No"| K
+
+    G --> G1["Analyze Competitor Pricing for Similar Feature"]:::research
+    G1 --> G2["Understand How Competitors Calculate Pricing"]:::research
+    G2 --> G3["Identify Which Competitor Plans Include the Feature"]:::research
+    G3 --> G4["Map Pricing & Plan Structure to Our System"]:::research
+    G4 --> H["Competitor Comparison & Analysis"]:::research
+
+    H --> H1["Compare Feature Scope & Depth vs Competitors"]:::research
+    H1 --> H2["Identify Gaps & Differentiators"]:::research
+    H2 --> I{"Idea Validated?"}:::decision
+
+    I -->|"No"| J(["Idea Discarded / Parked"]):::discarded
+    I -->|"Yes"| K["Write User Story via Lovable Project"]:::story
+
+    K --> K1["Define Acceptance Criteria"]:::story
+    K1 --> K2["Include Pricing & Plan Mapping Details"]:::story
+    K2 --> K3["Document Expected Behavior for All Client Segments"]:::story
+    K3 --> L{"Needs UX / Design?"}:::decision
+
+    L -->|"Yes"| M["Meeting with UX/Design Expert"]:::ux
+    M --> M1["Review User Flows & Wireframes"]:::ux
+    M1 --> M2["Define Simplest & Best User Experience"]:::ux
+    M2 --> M3["Ensure Consistency with Existing UI Patterns"]:::ux
+    M3 --> O{"Large Task?"}:::decision
+    L -->|"No"| O
+
+    O -->|"Yes"| P["Discussion with Tech Team"]:::tech
+    P --> P1["Review System Architecture Impact"]:::tech
+    P1 --> P2["Validate Technical Requirements & Constraints"]:::tech
+    P2 --> P3["Identify Dependencies & Risks"]:::tech
+    P3 --> R["Get Effort Estimation"]:::tech
+    R --> S["Development Starts"]:::dev
+    O -->|"No"| S
+
+    S --> T["Development In Progress"]:::dev
+    T --> T1["Code Implementation"]:::dev
+    T1 --> T2["Code Review"]:::dev
+    T2 --> T3["Internal QA / Testing"]:::dev
+    T3 --> U["Development Complete"]:::dev
+
+    U --> V["UAT by Product Team"]:::uat
+    V --> V1["Test Against Acceptance Criteria"]:::uat
+    V1 --> V2["Verify Pricing & Plan Integration"]:::uat
+    V2 --> V3["Test Across Client Segments"]:::uat
+    V3 --> W{"UAT Passed?"}:::decision
+
+    W -->|"No"| X["Report Issues to Dev Team"]:::uat
+    X --> T
+    W -->|"Yes"| Y["Green Light to Tech Team"]:::deploy
+
+    Y --> Z["Deploy to Production"]:::deploy
+    Z --> Z1["Write Help Center Article"]:::help
+    Z1 --> Z2["Include Usage Instructions & Screenshots"]:::help
+    Z2 --> Z3["Publish Article to Help Center"]:::help
+    Z3 --> AA["Add to Weekly Release Notes"]:::release
+    AA --> AB(["Release Note Published ✅"]):::startEnd
+
+    classDef startEnd fill:#f0e6ff,stroke:#7c3aed,stroke-width:2px,color:#4c1d95
+    classDef decision fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#92400e
+    classDef discarded fill:#fee2e2,stroke:#ef4444,stroke-width:2px,color:#991b1b
+    classDef backlog fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#92400e
+    classDef intake fill:#e0e7ff,stroke:#6366f1,stroke-width:2px,color:#3730a3
+    classDef validation fill:#fef9c3,stroke:#eab308,stroke-width:2px,color:#854d0e
+    classDef research fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,color:#1e40af
+    classDef story fill:#ede9fe,stroke:#8b5cf6,stroke-width:2px,color:#5b21b6
+    classDef ux fill:#fce7f3,stroke:#ec4899,stroke-width:2px,color:#9d174d
+    classDef tech fill:#ccfbf1,stroke:#14b8a6,stroke-width:2px,color:#115e59
+    classDef dev fill:#ffedd5,stroke:#f97316,stroke-width:2px,color:#9a3412
+    classDef uat fill:#fee2e2,stroke:#ef4444,stroke-width:2px,color:#991b1b
+    classDef deploy fill:#dcfce7,stroke:#22c55e,stroke-width:2px,color:#166534
+    classDef help fill:#cffafe,stroke:#06b6d4,stroke-width:2px,color:#155e75
+    classDef release fill:#d1fae5,stroke:#10b981,stroke-width:2px,color:#065f46
+        </pre>
+    </div>
+
+    <!-- Phase Descriptions -->
+    <h2 class="section-title">
+        <span class="icon" style="background:#fef3c7;color:#f59e0b;">&#9776;</span>
+        Phase Breakdown
+    </h2>
+
+    <div class="phases-grid">
+
+        <div class="phase-card" style="--card-accent: var(--accent-intake);">
+            <div class="phase-header">
+                <div class="phase-number" style="background:var(--accent-intake);">1</div>
+                <span class="phase-name">Intake</span>
+            </div>
+            <p class="phase-description">An idea or client request arrives from the CX team, Sales team, or as an internal product idea. All sources are funneled into a single validation pipeline.</p>
+        </div>
+
+        <div class="phase-card" style="--card-accent: var(--accent-validation);">
+            <div class="phase-header">
+                <div class="phase-number" style="background:var(--accent-validation);">2</div>
+                <span class="phase-name">Strategic Fit Check</span>
+            </div>
+            <p class="phase-description">Evaluate how the feature can be implemented within our system, then run it through a strategic alignment check: Does it align with company OKRs? Does it match the company strategy? Does it support revenue or growth goals? If any answer is no, the idea is added to the backlog for later consideration rather than discarded outright.</p>
+        </div>
+
+        <div class="phase-card" style="--card-accent: var(--accent-backlog);">
+            <div class="phase-header">
+                <div class="phase-number" style="background:var(--accent-backlog);">&darr;</div>
+                <span class="phase-name">Backlog</span>
+                <span class="phase-tag">If Not Aligned</span>
+            </div>
+            <p class="phase-description">Ideas that don't currently align with OKRs, company strategy, or revenue/growth goals are parked in the backlog. They can be revisited in future planning cycles when priorities shift.</p>
+        </div>
+
+        <div class="phase-card" style="--card-accent: var(--accent-validation);">
+            <div class="phase-header">
+                <div class="phase-number" style="background:var(--accent-validation);">3</div>
+                <span class="phase-name">Product Fit</span>
+            </div>
+            <p class="phase-description">Determine product fit &mdash; ensure the feature is usable and valuable across the entire client base, not just a niche segment. If not broadly applicable, explore how to adapt it for wider use.</p>
+        </div>
+
+        <div class="phase-card" style="--card-accent: var(--accent-validation);">
+            <div class="phase-header">
+                <div class="phase-number" style="background:var(--accent-validation);">4</div>
+                <span class="phase-name">Scope Check</span>
+            </div>
+            <p class="phase-description">Determine whether the validated idea is large enough to warrant full market research and competitor analysis. Smaller features skip directly to story writing and UX review, keeping the process lean.</p>
+        </div>
+
+        <div class="phase-card" style="--card-accent: var(--accent-research);">
+            <div class="phase-header">
+                <div class="phase-number" style="background:var(--accent-research);">5</div>
+                <span class="phase-name">Market Research</span>
+                <span class="phase-tag">If Large</span>
+            </div>
+            <p class="phase-description">Analyze how competitors price similar features and how that pricing is calculated. Identify which competitor plans include the feature. Map competitor pricing and plan structures to our own system to ensure alignment.</p>
+        </div>
+
+        <div class="phase-card" style="--card-accent: var(--accent-research);">
+            <div class="phase-header">
+                <div class="phase-number" style="background:var(--accent-research);">6</div>
+                <span class="phase-name">Competitor Analysis</span>
+                <span class="phase-tag">If Large</span>
+            </div>
+            <p class="phase-description">Compare feature scope, depth, and positioning against competitors. Identify gaps we can fill and differentiators we can leverage. Decide whether the idea is validated or should be discarded/parked.</p>
+        </div>
+
+        <div class="phase-card" style="--card-accent: var(--accent-story);">
+            <div class="phase-header">
+                <div class="phase-number" style="background:var(--accent-story);">7</div>
+                <span class="phase-name">Story Writing</span>
+            </div>
+            <p class="phase-description">Use the Lovable project to draft the user story. Define clear acceptance criteria, include pricing and plan mapping details, and document expected behavior for all client segments.</p>
+        </div>
+
+        <div class="phase-card" style="--card-accent: var(--accent-ux);">
+            <div class="phase-header">
+                <div class="phase-number" style="background:var(--accent-ux);">8</div>
+                <span class="phase-name">UX Review</span>
+                <span class="phase-tag">If Needed</span>
+            </div>
+            <p class="phase-description">Meet with a UX/Design expert to review user flows and wireframes. Define the simplest, best user experience while ensuring consistency with existing UI patterns.</p>
+        </div>
+
+        <div class="phase-card" style="--card-accent: var(--accent-tech);">
+            <div class="phase-header">
+                <div class="phase-number" style="background:var(--accent-tech);">9</div>
+                <span class="phase-name">Tech Review</span>
+                <span class="phase-tag">If Large Task</span>
+            </div>
+            <p class="phase-description">Discuss with the tech team to review system architecture impact, validate technical requirements and constraints, identify dependencies and risks, and get an effort/time estimation.</p>
+        </div>
+
+        <div class="phase-card" style="--card-accent: var(--accent-dev);">
+            <div class="phase-header">
+                <div class="phase-number" style="background:var(--accent-dev);">10</div>
+                <span class="phase-name">Development</span>
+            </div>
+            <p class="phase-description">The tech team builds the feature &mdash; code implementation, peer code review, and internal QA/testing before marking development as complete.</p>
+        </div>
+
+        <div class="phase-card" style="--card-accent: var(--accent-uat);">
+            <div class="phase-header">
+                <div class="phase-number" style="background:var(--accent-uat);">11</div>
+                <span class="phase-name">UAT</span>
+            </div>
+            <p class="phase-description">Product team performs User Acceptance Testing: verify against acceptance criteria, confirm pricing and plan integration works correctly, and test across different client segments. If issues are found, they loop back to development.</p>
+        </div>
+
+        <div class="phase-card" style="--card-accent: var(--accent-deploy);">
+            <div class="phase-header">
+                <div class="phase-number" style="background:var(--accent-deploy);">12</div>
+                <span class="phase-name">Deployment</span>
+            </div>
+            <p class="phase-description">Once UAT passes, give the green light to the tech team to deploy the feature to production.</p>
+        </div>
+
+        <div class="phase-card" style="--card-accent: var(--accent-help);">
+            <div class="phase-header">
+                <div class="phase-number" style="background:var(--accent-help);">13</div>
+                <span class="phase-name">Help Center</span>
+            </div>
+            <p class="phase-description">Write a help center article covering how the feature works and how clients can use it, including usage instructions and screenshots. Publish the article to the help center for client self-service.</p>
+        </div>
+
+        <div class="phase-card" style="--card-accent: var(--accent-release);">
+            <div class="phase-header">
+                <div class="phase-number" style="background:var(--accent-release);">14</div>
+                <span class="phase-name">Release Notes</span>
+            </div>
+            <p class="phase-description">By end of week, publish a release note covering all released features with descriptions and usage guidance.</p>
+        </div>
+
+    </div>
+
+</div>
+
+<footer class="footer">
+    User Story Journey &mdash; Product Manager Workflow
+</footer>
+
+<script>
+    mermaid.initialize({
+        startOnLoad: true,
+        theme: 'base',
+        themeVariables: {
+            fontFamily: 'Segoe UI, system-ui, sans-serif',
+            fontSize: '14px',
+            primaryColor: '#e0e7ff',
+            primaryTextColor: '#1e293b',
+            primaryBorderColor: '#6366f1',
+            lineColor: '#94a3b8',
+            secondaryColor: '#f1f5f9',
+            tertiaryColor: '#fef3c7'
+        },
+        flowchart: {
+            htmlLabels: true,
+            curve: 'basis',
+            padding: 16,
+            nodeSpacing: 30,
+            rankSpacing: 40,
+            useMaxWidth: true
+        }
+    });
+</script>
+
+</body>
+</html>

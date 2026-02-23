@@ -1,0 +1,445 @@
+,,,All features released after March 4th 2024 are not available on legacy plans,,,,,,,,,,,,NEW (ALL PLATFORMS),,,,,,,New Shopify,,,,New SelfServe,,Salla Pricing,,,
+,Section,Type,Feature,Notes,Release Date,Benefit,Medium,Medium Sub-Category,Benefit Tier,Use Case,Scalable,Transactional Report Available,Event Data Collected,Needed Now?,Kickstarter,Basic,Growth,Master,Provided on Legacy Plans?,Transition Action,Seed Data Change Needed,Free,Starter,Pro,Guru,Growth,Enterprise,Free (الباقه المجانية),Starter (الباقه البرونزية),Pro (الباقه الفضية),Guru (الباقه الذهبية)
+,listing page,,,,,,,,,,,,,,,,,,,,,https://apps.shopify.com/gameball,,,,,,https://apps.salla.sa/ar/app/1407572580,,,
+1,Price (monthly),,60,,,,,,,,,,,,$0,$29.99,$34.99,$549.99,,,,100 || $0.0,"200   || $19.0
+300   || $34.0
+500   || $64.0
+1000 || $119.0","1000 || $159.0
+1500 ||  $204.0
+2000 || $249.0
+3000 || $339.0
+4000 || $429.0
+5000 || $519.0
+6000 || $609.0
+7000 || $699.0
+8000 || $779.0
+9000 || $859.0
+10000 || $939.0","10000    || $999.0
+15000    || $1,399.0
+20000    || $1,799.0
+25000    || $2,149.0
+30000    || $2,499.0
+40000    || $2,999.0
+50000    || $3,374.0
+75,000   || $4,554.0
+100,000 || $5,465.0","2,000   ||  $189       
+3,000   ||  $264 Default 
+5,000   ||  $413
+10,000 ||  $777    
+15,000 ||  $1,107
+20,000 ||  $1,416  
+25,000 ||  $1,717
+30,000 ||  $1,999",Customized,100 || 0.0 SAR,"200   ||  49 SAR (default)
+400   ||  114 SAR
+600   ||  179 SAR
+800   ||  244 SAR
+1,000 ||  299 SAR","1,000  ||  399 SAR (default)
+2,000  ||  599 SAR
+3,000  ||  799 SAR
+4,000  ||  999 SAR
+5,000  ||  1,199 SAR
+6,000  ||  1,399 SAR
+7,000  ||  1,599 SAR
+8,000  ||  1,799 SAR
+9,000  ||  1,999 SAR
+10,000 ||  2,199 SAR","10,000  ||  2,599 SAR (default)
+15,000  ||  3,699 SAR
+20,000  ||  4,699 SAR
+25,000  ||  5,599 SAR
+30,000  ||  6,499 SAR
+40,000  ||  7,799 SAR
+50,000  ||  8,799 SAR
+75,000  ||  11,899 SAR
+100,000 ||  14,299 SAR
+"
+,Extra Charges Cap (monthly plans) If platform requires cap of overages,,,,,,,,,,,,,,,,,,,,,$10.00,"$10.0
+$20.0
+$35.0
+$60.0","$60.0
+$60.0
+$90.0
+$90.0
+$90.0
+$90.0
+$90.0
+$90.0
+$90.0
+$90.0
+$400.0","$400.0
+$400.0
+$400.0
+$400.0
+$600.0
+$600.0
+$600.0
+$1,200.0
+$1,200.0",NA,NA,NA,NA,NA,NA
+,Price (annual),,,,,,,,,,,,,,,,,,,,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+,Cap (annual plans),,,,,,,,,,,,,,,,,,,,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+,Value metric ,,,,,,,,,,,,,,,,,,,,,MRC,MRC,MRC,MRC,MRC,MRC,MRC,MRC,MRC,MRC
+,Extra Charges,,For each extra active customer,,,,,,,,,,,,$0.15,$0.12,$0.09,$0.05,,,,no overages on default free plan | $0.25 if the user downgrades to free,$0.15,$0.12,$0.10,$0.085,Customized,not charged atm,not charged atm,not charged atm,not charged atm
+3,Trial days,,,,,,,,,,,,,,No,No,Yes,Yes,,,,N/A,7 days reverse trial,N/A,N/A,14 days normal trial,N/A,N/A,N/A,N/A,N/A
+4,Home,Page access,Home,,,Productivity,Data Presentation,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+10,Loyalty Points - Earn,Page access,Access Loyalty Points - Earn page,,,Productivity,Data Presentation,, Basic,,,Yes,Partial,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Loyalty Points - Earn,Action,Activate/Deactivate Loyalty Points - Earn,,,Engagement,Loyalty (Points),, Basic,,0,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+10,Loyalty Points - Earn,Action,Pending Points (Return Window Duration),,,Engagement,Loyalty (Points),,Full,Fraud,0,No,No,,No,Yes,Yes,Yes,,feature disabled,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+10,Loyalty Points - Earn,Action,Tier-based Loyalty Points - Earn configuration,"An account cannot simultaneously support both custom collection-based and merchant-based cashback rewards; it must be configured for one type only. There are only two dimensions available: 
+Level based and Merchant based
+OR  Level based and Custom collection based
+",,Engagement,Loyalty (Points),,Advanced,,0,Partial,No,,No,No,Yes,Yes,,,,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+,Loyalty Points - Earn,,Loyalty Points - Earn per Merchant,,,,,,,,,,,,,,,,,,,Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales)
+10,Loyalty Points - Earn,Action,Disable/Enable Campaign (Will be removed from here),OR 1. Level based/3. Custom collection based,,Engagement,Loyalty (Points),,Advanced,,0,Partial,Partial,,No,No,Yes,Yes,,,,No,Yes,Yes,Yes,Addon C1,Yes,No,Yes,Yes,Yes
+10,Loyalty Points - Earn,Action,Number of Campaigns,,,Engagement,Loyalty (Points),,Advanced,Simultaneous Campaigns,1,,,,,,,,,,,,,,,,,,,,
+,Loyalty Points - Earn,Limitation,Exclude Collections from Loyalty Points - Earn,,,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Addon C1,Yes,No,No,Yes,Yes
+,Loyalty Points - Earn,,Select Collections For Loyalty Points,,,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Addon C1,Yes,,,,
+,Loyalty Points - Earn,Limitation,Custom Loyalty Points - Earn values per collection,,,,,,,,,,,,,,,,,,,No,No,No,Yes,Addon C1,Yes,No,No,No,Yes
+11,Loyalty Points - Redeem,Page access,Points redemption - default,,,Productivity,Data Presentation,, Basic,,0,Yes,Partial,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Loyalty Points - Redeem,Page access,Add Extra Redemption Method,,,Engagement,Loyalty (Points),,Advanced,,0,Yes,No,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Loyalty Points - Redeem,Limitation,Fixed Amount,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Loyalty Points - Redeem,Limitation,Percentage based,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Loyalty Points - Redeem,Limitation,Free product ,,,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Loyalty Points - Redeem,Limitation,Free Shipping,,,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Loyalty Points - Redeem,Limitation,POS - Fixed Amount,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Hidden (NA),Hidden (NA),No,Yes,Yes,Yes
+,Loyalty Points - Redeem,Limitation,POS - Percebtage Based,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Hidden (NA),Hidden (NA),No,Yes,Yes,Yes
+,Loyalty Points - Redeem,Limitation,Custom Rewards (Third Party),,,,,,,,,,,,,,,,,,,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (Sales),Hidden (Sales),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+11,Loyalty Points - Redeem,Action,Hide Default Redemption Method,,,Engagement,Loyalty (Points),Customization,Advanced,,0,No,No,,NA,NA,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Loyalty Points - Redeem,Limitation,Apply rule (free product) on specific variant,,,,,,,,,,,,No,No,Yes,Yes,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Loyalty Points - Redeem,,Customize Reward Image,,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+,Loyalty Points - Redeem,,Automatically fetch product image,,,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Loyalty Points - Redeem,Limitation,Customize Free Product Name (Will be deleted),,,,,,,,,,,,No,No,Yes,Yes,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Loyalty Points - Redeem,Limitation,Customize Reward Name,,,,,,,,,,,,No,No,Yes,Yes,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Loyalty Points - Redeem,,Eligible Customers (Redemption rule only),,,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+11,Loyalty Points - Redeem,Action,Edit Points Expiry General,,,Engagement,Loyalty (Points),Customization,Advanced,,0,No,No,,No,No,No,Yes,,switch,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Loyalty Points - Redeem,,Points Holding Duration,,,,,,,,,,,,,,,,,,,No,No,No,Yes,Yes,Yes,No,No,No,Yes
+9,Referral,Page access,Access Referral page,,,Productivity,Data Presentation,, Basic,,0,Yes,Partial,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+9,Referral,Limitation,Customize Referral Rule,,,Acquisition,Referral,,Advanced,,1,Yes,No,,Customer & Guest Only,All,All,All,,,,First Order Only,Customized Event,Customized Event,Customized Event,Customized Event,Customized Event,First Order Only,Customized Event,Customized Event,Customized Event
+,Referral,,Multiple Step Referral,,,,,,,,,,,,,,,,,,,Contact Sales,Contact Sales,Contact Sales,Contact Sales,Contact Sales,Yes,Contact Sales,Contact Sales,Contact Sales,Contact Sales
+9,Referral,Limitation,Change Referral landing page URL,,,Acquisition,Referral,,Advanced,,0,,,,NA,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Referral,Limitation,Extra (bonus) Reward For Every x Referred Friends,,,Acquisition,Referral,,Full,,,,,,No,No,Yes,Yes,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,VIP Tiers,Page access,Access VIP Tiers Page,,,,,,,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,VIP Tiers,Limitation,Number of VIP Tiers Allowed,,,,,,,,,,,,2 VIP Tiers,3 VIP Tiers,Unlimited,Unlimited,,,,1 Tier (default),5 Tiers (total),Unlimited,Unlimited,Add limitation to the growth plan,Unlimited,1 Tier (default),2 VIP Tiers (total),Unlimited,Unlimited
+,VIP Tiers,Action,Customize Tier Icon,,,,,,,,,,,,Library,Library,Library or Upload,Library or Upload,,,,From library Only,From library Only,Yes,Yes,Yes,Yes,From library Only,From library Only,Yes,Yes
+,VIP Tiers,Action,Add Entry Reward,,,,,,,,,,,,No,No,Yes,Yes,,,,N/A,Yes,Yes,Yes,Yes,Yes,N/A,Yes,Yes,Yes
+,VIP Tiers,Action,Add Lifetime Reward,,,,,,,,,,,,No,No,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,VIP Tiers,Action,Add Custom Benefits text,,,,,,,,,,,,No,No,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,VIP Tiers,Action,Add Custom Benefits URL,,,,,,,,,,,,No,No,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,VIP Tiers,Action,Tier Expiry Methods,,,,,,,,,,,,Lifetime,Lifetime,Lifetime ,All,,,,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+,VIP Tiers,Limitation,Tiering-up Methods,,,,,,,,,,,,Points Earned,Points Earned + Amount Spent,Points Earned + Amount Spent + Referral + Orders,All,,,,Amount Spent (default) ,Amount Spent (default) ,All methods,All methods,All methods,All methods,Amount Spent (default) ,Amount Spent (default) ,All methods,All methods
+7,Reward Campaigns,Page access,Access Reward Campaigns Catalog,,,Productivity,Data Presentation,, Basic,,,No,No,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Reward Campaigns,Limitation,Activation Limit (Recently Updated),,,Engagement,Gamification,,Advanced,,,,,,3 Active,5 Active,Unlimited,Unlimited,,deactivate extra,,Up to 5 Active,Up to 10 Active ,Up to 20 Active,Unlimited,Unlimited,Unlimited,Up to 5 Active,Up to 10 Active ,Up to 20 Active,Unlimited
+,Reward Campaigns,Action,Activate - Create an account,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - First Order,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - Second Order,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - Third Order,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - Fifth Order,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - Tenth Order,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Reward Campaigns,Action,Take a survey,,,,,,,,,,,,,,,,,,,Yes,,,,Yes,Yes,Yes,,,
+,Reward Campaigns,Action,Activate - Facebook,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - Instagram,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - Twitter,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - Tiktok,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - Birthday,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - Anniversary,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Reward Campaigns,,Activate - Write a review (Salla) ,,,,,,,,,,,,,,,,,,,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),No,Yes,Yes,Yes
+,Reward Campaigns,,Activate - Write a review (Shopify Flow),,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Reward Campaigns,,Activate - Fill a survey (Shopify Flow) ,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Reward Campaigns,Action,Activate - Subscribe to Newsletter (Shopify Flow) ,,11/11/2024,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Reward Campaigns,,Activate - Write a review (APPs),,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Reward Campaigns,Action,Activate - Subscribe to Newsletter (APPs),,Removed,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - Check-in Streak,,,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - Stamps (Action Streak),,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Popup (Contact Sales),Popup (Contact Sales),No,No,Yes,Yes
+,Reward Campaigns,Action,Activate - Mission ,,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Popup (Contact Sales),Popup (Contact Sales),No,No,Yes,Yes
+,Reward Campaigns,Action,Activate - Milestone,[Can be an addon] Not opened by default for Salla & Shopify to avoid any performance issues as it send an extra event - Back to youmna for more info,8/19/2025,,,,,,,,,,,,,,,,,"Hidden (NA) 
+[Can be an addon]","Hidden (NA)
+[Can be an addon]","Hidden (NA)
+[Can be an addon]","Hidden (NA)
+[Can be an addon]",Popup (Contact Sales),Popup (Contact Sales),"Hidden (NA)
+[Can be an addon]","Hidden (NA)
+[Can be an addon]","Hidden (NA)
+[Can be an addon]","Hidden (NA)
+[Can be an addon]"
+,Reward Campaigns,Action,Activate - Survey (RoadMap),,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Popup (Contact Sales),Popup (Contact Sales),No,No,Yes,Yes
+,Reward Campaigns,Action,Activate - Spin the wheel,,9/1/2024,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Popup (Contact Sales),Popup (Contact Sales),No,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - Slot Machine,,,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Popup (Contact Sales),Popup (Contact Sales),No,Yes,Yes,Yes
+,Reward Campaigns,,Activate - Quiz,,,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Popup (Contact Sales),Popup (Contact Sales),No,Yes,Yes,Yes
+,Reward Campaigns,,Activate - Calender Challenge ,Updated (14/4/2025),2/17/2025,,,,,,,,,,,,,,,,,Popup (Contact Sales),Popup (Contact Sales),Popup (Contact Sales),Popup (Contact Sales),Popup (Contact Sales),Popup (Contact Sales),Popup (Contact Sales),Popup (Contact Sales),Popup (Contact Sales),Popup (Contact Sales)
+,Reward Campaigns,,Activate - Scratch & Win,,3/18/2025,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Popup (Contact Sales),Popup (Contact Sales),No,No,Yes,Yes
+,Reward Campaigns,,Activate - Match Cards,,4/7/2025,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Popup (Contact Sales),Popup (Contact Sales),No,No,Yes,Yes
+,Reward Campaigns,,Activate - Catcher Game,,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Popup (Contact Sales),Popup (Contact Sales),No,No,Yes,Yes
+,Reward Campaigns,,Activate - Tic Tac Toe,,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Popup (Contact Sales),Popup (Contact Sales),No,No,Yes,Yes
+,Reward Campaigns,,Activate - Shooter,,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Popup (Contact Sales),Popup (Contact Sales),No,No,Yes,Yes
+,Reward Campaigns,,Activate - Puzzle,,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Popup (Contact Sales),Popup (Contact Sales),No,No,Yes,Yes
+,Reward Campaigns,,Activate - Tap the Target,,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Popup (Contact Sales),Popup (Contact Sales),No,No,Yes,Yes
+,Reward Campaigns,,Activate - Driving,,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Popup (Contact Sales),Popup (Contact Sales),No,No,Yes,Yes
+,Reward Campaigns,,Activate - Subscribe to Newsletter (Popup) ,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Reward Campaigns,,Activate - First Order Discount  (Popup),,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Reward Campaigns,,Activate - Instant Rewrad ,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Reward Campaigns,,Activate - Double The Points ,,,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Reward Campaigns,,Activate - Triple The Points,,,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - Visit a specific product,,,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - Buy a specific product,,,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - Buy from a specific collection,,,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - Exceed your highest order value,,,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - Buy X Get Y on your next order,,,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - Buy 3 items from a specific collection,,,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - Buy from 3 different collections,,,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - Free Shipping for orders over 500$,,,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - Buy over 50$ and get 5$ on the next order,,,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - Get 20% OFF after spending total of 1000$ ,,,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - Black friday,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Reward Campaigns,Action,Activate - Christmas,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Reward Campaigns,,Activate - Seasonal Offer,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Reward Campaigns,Action,Custom Action-based,,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+,Reward Campaigns,Action,Custom Time-based,,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+,Reward Campaigns,,Custom Points-Multiplier,,9/15/2024,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Reward Campaigns,,Custom Points-Multiplier Based on Specific rule ,,9/15/2024,,,,,,,,,,,,,,,,,No,No,No,Yes,No,Yes,No,No,No,Yes
+,Reward Campaigns,,Custom Shopify Flow (New),,11/11/2024,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+7,Reward Campaigns,Page access,[Redirection] Add a redirection link ,,,Engagement,Gamification,,Full,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+7,Reward Campaigns,Page access,[Redirection] Add a redirection link Query param,,,Engagement,Gamification,,Full,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+7,Reward Campaigns,Limitation,[Audience] Specific Customers,,,Engagement,Targeting,,Advanced,,,Partial,No,,No,No,Yes,Yes,,delete,,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+7,Reward Campaigns,Limitation,[Audience] Guest Anonymous [Popup & Some Games],,,Engagement,Targeting,,Advanced,,,Partial,No,,No,No,Yes,Yes,,delete,,No,Yes,Yes,Yes,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+7,Reward Campaigns,Action,[Badge] Add Reward Campaign Badge Reward,,,Engagement,Gamification,,Full,,0,,,,No,No,No,Yes,,global settings,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+7,Reward Campaigns,Limitation,[Badge] Edit Reward Campaign Badge,,,Engagement,Branding,Images,Advanced,Branding (Images),0,No,No,,From library,From library,Library or Upload,Library or Upload,,,,From library Only,From library Only,Yes,Yes,Yes,Yes,From library Only,From library Only,Yes,Yes
+,Reward Campaigns,,[Badge] Edit Reward Campaign Badge Visibilty,,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+,Reward Campaigns,Action,[Activation] Add Time/Schedule [Action-Based Campaign],,,Engagement,Gamification,,Full,,0,,,,No,No,No,Yes,,global settings,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+7,Reward Campaigns,Action,[Repeatability] Edit Reward Campaign Repeatability,,,Engagement,Gamification,,Full,,0,,,,No,No,No,Yes,,global settings,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Reward Campaigns,Page access,[Notification] Access in-App notification Edit Popup,,,Engagement,Branding,,Advanced,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+7,Reward Campaigns,Limitation,[Notification] Edit in-App notification script text,,,Engagement,Branding,Language,Advanced,Brand Lang.,0,No,No,,No,No,Yes,Yes,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Reward Campaigns,Limitation,[Notification] Add Placeholders To in-App Script Text,,,Engagement,Personalization,,Full,,,,,,No,No,Yes,Yes,,keep old text ,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Reward Campaigns,Page access,[Notification] Access Edit Email Popup,,,Engagement,Branding,,Advanced,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+7,Reward Campaigns,Limitation,[Notification] Edit Email text,,,Engagement,Branding,Language,Advanced,Brand Lang.,0,,,,No,No,Yes,Yes,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+7,Reward Campaigns,Limitation,[Notification] Edit Email images,,,Engagement,Branding,Images,Advanced,Branding (Images),0,,,,No,No,Yes,Yes,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Reward Campaigns,Limitation,[Notification] Add Placeholders To Email Script Text,,,Engagement,Personalization,,Full,,,,,,No,No,Yes,Yes,,keep old text,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Reward Campaigns,,[Goal] Reward Campaign Goal ,,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+7,Reward Campaigns,Action,Extract Reward Campaigns,,,Productivity,Operations,Data Extraction,Advanced,,0,No,No,,No,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Reward Campaigns,,Campaign Web URL,,,,,,,,,,,,,,,,,,,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+7,Reward Campaigns,Action,Duplicate Reward Campaigns,,,Productivity,Operations,, Basic,,0,No,No,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Rewards options,,Type: External Reward (API Call) ,,,,,,,,,,,,,,,,,,,Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Yes,Yes,Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales)
+,Rewards options,,Type:  Store credit,,9/15/2024,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,NA,NA,NA,NA,NA,NA
+,Rewards options,Limitation,Apply rule on Specific collection,,,,,,,,,,,,No,No,Yes,Yes,,,,Yes,Yes,Yes,Yes,Addon R1,Yes,Yes,Yes,Yes,Yes
+,Rewards options,Limitation,Add reward expiry,,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Addon R1,Yes,No,No,Yes,Yes
+,Rewards options,Limitation,Add minimum purchase value,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Addon R1,Yes,Yes,Yes,Yes,Yes
+,Rewards options,Limitation,Add maximum reward usage,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Addon R1,Yes,Yes,Yes,Yes,Yes
+,Rewards options,Limitation,Apply reward combination,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Addon R1,Yes,Yes,Yes,Yes,Yes
+,Rewards options,,"Add ""How to redeem"" instructions",,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Rewards options,,Custom Points Expiry Per Reward (Bonus Expiry),,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Rewards options,,Reward (No Luck) [Luck Games Only],,,,,,,,,,,,,,,,,,,No ,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Rewards options,,Reward probability [Luck Games Only],,9/1/2024,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Rewards options,,Reward limit [Luck Games Only],,9/15/2024,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+,Communication Campaign ,Page access,Access Communication Campaign ,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Communication Campaign ,Page access,Create Communication Campaign (Draft),,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Communication Campaign ,Limitation,Active Communication Campaign,,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Unlimited,Unlimited,No,No,Yes,Yes
+,Communication Campaign ,MCC Quota,"Monthly Contacted Customer
+(Unique customers contact through Communication Campaign per month. if multiple Communication Campaigns sent to the same customer they are counted only once)",,,,,,,,,,,,,,,,,,,NA,NA,NA,NA,"100 || Default
+1,000 || $16
+2,000 || $29
+3,000 || $39
+5,000 || $53
+10,000 || $96
+15,000 || $129
+20,000 || $172
+30,000 || $232
+40,000 || $279
+50,000 || $314
+60,000 || $339
+70,000 || $356
+80,000 || $452
+90,000 || $458
+100,000 || $508",Customized,NA,NA,NA,NA
+,Communication Campaign ,Limitation,Overages,,,,,,,,,,,,,,,,,,,NA | once limit reached no more comm. sent,NA | once limit reached no more comm. sent,NA | once limit reached no more comm. sent,NA | once limit reached no more comm. sent,$0.0150,Customized,NA | once limit reached no more comm. sent,NA | once limit reached no more comm. sent,NA | once limit reached no more comm. sent,NA | once limit reached no more comm. sent
+,Communication Campaign ,Limitation,Emails limit,,,,,,,,,,,,,,,,,,,NA,NA,"Yes 
+(10,000 Emails/mo)","Yes 
+(10,000 Emails/mo)",10 * MCC Quota,Customized,NA,NA,"Yes 
+(10,000 Emails/mo)","Yes 
+(10,000 Emails/mo)"
+,Communication Campaign ,Limitation,Web Messages limit,,,,,,,,,,,,,,,,,,,Unlimited,Unlimited,Unlimited,Unlimited,unlimited,unlimited,Unlimited,Unlimited,Unlimited,Unlimited
+,Communication Campaign ,Limitation,Mobile Push limit,,,,,,,,,,,,,,,,,,,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),unlimited,unlimited,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Automation Campaign,Page access,Access Automation Campaign page,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Automation Campaign,Action,Create Automation Campaign,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Automation Campaign,Limitation,Set Automation Campaign live,,,,,,,,,,,,,,,,,,,Yes Max (1),Yes Max (1),Yes Max (2),Yes,Available (But Change needed),Yes,Yes Max (1),Yes Max (1),Yes Max (2),Yes
+5,Customers,Page access,Access Customers List,,,Productivity,Data Presentation,, Basic,,,No,No,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+5,Customers,Page access,Access Customer Page,,,Productivity,Data Presentation,, Basic,,,No,No,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+5,Customers,Action,Tag Filtered Customers ,,,Engagement,Targeting,,Advanced,,,No,Yes,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Customers,Action,Include/Exclude Customers,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+5,Customers,Action,Update/Migrate Customers,,,Productivity,Operations,, Basic,,,No,Yes,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+5,Customers,Action,Extract Customers,,,Productivity,Operations,Data Extraction,Basic,,,No,No,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+5,Customers,Action,Reward a Reward Campaign,,,Productivity,Operations,,Advanced,,,Not sure,Not sure,,No,No,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+5,Customers,Action,Add/Deduct points,,,Productivity,Operations,,Advanced,Returns,,No,Yes,,No,No,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+5,Customers,Action,Adjust Customer Tier,,,Productivity,Operations,,Advanced,,,No,No,,No,No,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Customers,Action,Delete Customers,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+5,Customers,Page access,Access Customer Activity Log,,,Productivity,Data Presentation,, Basic,,,No,No,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+5,Customers,Action,Extract Activity Log,,,Productivity,Operations,Data Extraction,Advanced,,,No,No,,No,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+5,Customers,Page access,Access Segments Page,,,Productivity,Data Presentation,, Basic,,,No,No,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Customers,Action,Save a Segment,,,,,,,,,,,,,,,,,,,No,Up to 3,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+,Customers,,Refresh Segment data (Segments/RFM),,,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+,Customers,Page access,Access RFM Segement Page,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Customers,Limitation,Open rfm segment Customers list,,,,,,,,,,,,,,,,,,,No ,No,Yes,Yes,Addon S1,Yes,No ,No,Yes,Yes
+,Customers,Limitation,View rfm segment retention strategy,,,,,,,,,,,,,,,,,,,No ,No,Yes,Yes,Addon S1,Yes,No ,No,Yes,Yes
+,Customers,Limitation,Click on an action in the rentention strategy popup,,,,,,,,,,,,,,,,,,,No ,No,Yes,Yes,Addon S1,Yes,No ,No,Yes,Yes
+,Embedded Blocks,,Points on account page ,,9/30/2024,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Embedded Blocks,,Points on Product page ,,10/14/2024,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Embedded Blocks,,Cart - Show order potential points ,,11/11/2024,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Embedded Blocks,,[Shopify Plus] Checkout - Redeem Points input field,,12/9/1024,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Embedded Blocks,,[Shopify Plus] Checkout - Redeem Points drop-menu,,12/9/1024,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Embedded Blocks,,[Shopify Plus] Checkout - Available Rewards drop menu,,12/9/1024,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Embedded Blocks,,[Shopify Plus] Checkout - Show order potential points ,,12/9/1024,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Embedded Blocks,,[Shopify Plus] Checkout - Auto apply tier lifetime reward at checkout,,12/9/1024,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Embedded Blocks,,Thank You - Show Earned Points after checkout ,,12/9/1024,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Embedded Blocks,,Thank You - Refer a Friend after Checkout,,12/9/1024,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Embedded Blocks,,Loyalty Rewards Page (Planned),,,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Embedded Blocks,,Loyalty - Hero Banner (Planned),,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Embedded Blocks,,Loyalty - Balance & Activities (Planned),,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Embedded Blocks,,Loyalty - Ways to Earn (Planned),,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Embedded Blocks,,Loyalty - Ways to Redeem (Planned),,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Embedded Blocks,,Loyalty - Available Rewards (Planned),,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Embedded Blocks,,Loyalty - Referral (Planned),,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Embedded Blocks,,Loyalty - VIP Tiers (Planned),,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Embedded Blocks,,Loyalty - How it Works (Planned),,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Embedded Blocks,,Loyalty - FAQ (Planned),,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+8,Programs,Page access,Missions List,,,,,,,,,,,,No,No,No,No,,,,No,No,No,Yes,,,No,No,No,Yes
+8,Programs,,Number of Missions,,,,,,,,,,,,No,No,No,No,,,,,,,Unlimited,,,,,,Unlimited
+16,Widget | General | Languages,Page access,Access Langauges Tab,,,Productivity,Data Presentation,, Basic,,,,Partial,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+16,Widget | General | Languages,Limitation,Add Languages,,,Engagement,Localization,,Full,Reach,1,,Partial,,1,1,2,Unlimited,,deactivate extra ,,1 lang (default),2 lang (total),Unlimited,Unlimited,"2 lang 
+Popup (Contact Sales)","2 lang 
+Popup (Contact Sales)",1 lang (default),2 lang (total),Unlimited,Unlimited
+16,Widget | General | Visibility,Page access,Access General Tab,,,Productivity,Data Presentation,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Widget | General | Visibility,Action,Hide/Show Widget for the Customers,,,Engagement,Customization,,Advanced,,,,,,Always enabled,Always enabled,Enable/Disable,Enable/Disable,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Widget | General | Visibility,Action,Hide/Show Widget for the guests,,,Engagement,Customization,,Advanced,,,,,,Always enabled,Always enabled,Enable/Disable,Enable/Disable,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+16,Widget | General | Visibility,Action,Hide/Show Tier Card,,,Engagement,Customization,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+16,Widget | General | Visibility,Action,Hide/Show Leaderboard tab,,,Engagement,Gamification,,Full,,,,,,No,No,No,Yes,,,,No,No,Yes,Yes,Addon L1,Popup (Contact Sales),No,No,No,Yes
+16,Widget | General | Visibility,Action,Hide/Show Notifications icon,,,Engagement,Customization,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Widget | General | Visibility,Action,Hide/Show pervious VIP Tiers benefits,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Widget | General | Visibility,Action,Hide/show coupons tab,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Widget | General | Visibility,Action,Hide/show Rewards from referral page,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Widget | General | Visibility,Action,Hide/show Points from referral page,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+16,Widget | General | Visibility,Action,Disable Gameball Footer,,,Engagement,Branding,Name,Full,,0,,,,Always enabled,Always enabled,Always enabled,Enable/Disable,,,,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+,Widget | Reward Campaigns,Page access,Access Reward Campaigns tab,,,Productivity,Data Presentation,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Widget | Reward Campaigns,Action,Sorting,,,Engagement,Customization,,Advanced,,,,,,No,No,Yes,Yes,,,,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+16,Widget | Branding | Colors,Page access,Access Colors tab,,,Productivity,Data Presentation,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+16,Widget | Branding | Colors,Action,Widget Theme (Dark/white),,,Engagement,Customization,,Advanced,Branding,0,,,,No,No,Yes,Yes,,,,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+16,Widget | Branding | Colors,Action,Change Widget Color,,,Engagement,Branding,Colors, Basic,Branding (Colors),,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+16,Widget | Branding | Colors,Action,Change Widget Font,,,Engagement,Branding,Font,Full,,,,,,No,No,No,Yes,,return to default,,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+16,Widget | Branding | Colors,Action,Change launcher Color,,,Engagement,Branding,Colors, Basic,Branding (Colors),,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+16,Widget | Branding | Colors,Action,Change launcher Icon Color,,,Engagement,Branding,Colors, Basic,Branding (Colors),,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Widget | Branding | Colors,Action,Change launcher Text Color,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+16,Widget | Branding | Identity,Page access,Access Identity tab,,,Productivity,Data Presentation,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+16,Widget | Branding | Identity,Action,Change Program Name,,,Engagement,Branding,Language, Basic,,0,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+16,Widget | Branding | Identity,Action,Change Points Name,,,Engagement,Branding,Language,Advanced,Branding (Lang.),,,,,No,No,Yes,Yes,,,,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+16,Widget | Branding | Identity,Action,Change Points Icon,,,Engagement,Branding,,Advanced,,,,,,No,No,Library,Library,,,,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+16,Widget | Braning | Guest,Page access,Access Guest tab,,,Productivity,Data Presentation,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Widget | Braning | Guest,,Hide Guest View Image,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+16,Widget | Braning | Guest,Limitation,Upload Guest View Image,,,Engagement,Branding,Images,Advanced,Branding (Images),,,,,Default or none,Default or none,Default or none,Default or none,,,,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+16,Widget | Braning | Guest,Action,Edit registration and login URLs,,,Activation,Customization,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+16,Widget | Launcher | Customize,Page access,Acceess Customize tab,,,Productivity,Data Presentation,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+16,Widget | Launcher | Customize,Action,Launcher direction,,,Engagement,Branding,Layout, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+16,Widget | Launcher | Customize,Limitation,Change launcher icon,,,Engagement,Branding,Images,Advanced,Branding (Images),,,,,From library,From library,Library or Upload,Library or Upload,,,,From library only,From library only,Yes,Yes,Yes,Yes,From library only,From library only,Yes,Yes
+16,Widget | Launcher | Customize,Action,Change launcher text,,,Engagement,Branding,Layout, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+16,Widget | Launcher | Shape,Page access,Access Shape tab,,,Productivity,Data Presentation,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+16,Widget | Launcher | Shape,Action,Hide/Show Launcher,,,Productivity,Data Presentation,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+16,Widget | Launcher | Shape,Action,Button Shape,,,Engagement,Customization,Colors, Basic,Branding (Colors),,,,,All except deep links,All except deep links,All except deep links,All,,return to default,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+16,Widget | Launcher | Shape,Action,Deep Linking,,,Productivity,Data Presentation,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+16,Widget | Content,Page access,Access Content,,,Productivity,Data Presentation,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+16,Widget | Content,Action,Edit Content,,,Acquisition,Branding,Language, Basic,Brand Lang.,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+12,Notifications - InApp,Page access,Access Notification Page,,,Productivity,Data Presentation,, Basic,,,No,No,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+13,Notifications - InApp,Action,Activate/Deactivate Notifications,,,Engagement,Customization,, Basic,,,No,No,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Notifications - InApp,Limitation,Accessible Notification types,,,Engagement,Popups,,Advanced,,,,,,"All except points expiry, event cheering","All except points expiry, event cheering","All except points expiry, event cheering",All,,,,All,All,All,All,Yes,Yes,All,All,All,All
+12,Notifications - InApp,Limitation,Edit Notification Script Text,,,Engagement,Branding,Language,Advanced,Brand Lang.,,No,No,,No,No,Yes,Yes,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+12,Notifications - InApp,Limitation,Edit Notification Script Image,,,Engagement,Branding,Images,Advanced,Branding (Images),,,,,,,,,,,,,,,,Yes,Yes,,,,
+12,Notifications - InApp,Limitation,Add Placeholders To Text,,,Engagement,Personalization,,Full,,,,,,No,No,Yes,Yes,,keep old text,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+13,Notifications - Emails,Page access,Email Page,,,Productivity,Data Presentation,, Basic,,,Partial,No,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Notifications - Emails,Action,Activate/Deactivate Email,,,Engagement,Channel ,Email, Basic,,,Partial,No,,No,Yes,Yes,Yes,,,,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Notifications - Emails,Limitation,Accessible Emails types,,,Engagement,Targeting,,Advanced,,,,,,NA,All except points expiry,All except points expiry,All,,deactivate,,All,All,All,All,Yes,Yes,All,All,All,All
+13,Notifications - Emails,Limitation,Edit Email Text,,,Engagement,Branding,Language,Advanced,Brand Lang.,,Partial,No,,NA,No,Yes,Yes,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+13,Notifications - Emails,Limitation,Edit Email Images,,,Engagement,Branding,Images,Advanced,Branding (Images),,,,,NA,No,Upload,Upload,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+13,Notifications - Emails,Limitation,Edit Email Text Font,,,Engagement,Branding,Font,Full,,,,,,,,,,,,,,,,,Yes,Yes,,,,
+,Notifications - Emails,Action,Edit Points Expiry Days,,,Engagement,,,Full,,,,,,,,,,,,,,,,,Yes,Yes,,,,
+13,Notifications - Emails,Action,Remove Gameball Footer,,,Engagement,Branding,Name,Full,,,,,,No,No,No,Yes,,,,,,,,Yes,Yes,,,,
+13,Notifications - Emails,Limitation,Add Placeholders To Text,,,Engagement,Personalization,,Full,,,,,,NA,No,Yes,Yes,,keep old text,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+,Notifications - Emails,,Customize Email Sender [Custom domain],,,,,,,,,,,,,,,,,,,No,Yes,Yes,Yes,Popup (Contact Sales),Yes,No,No,Yes,Yes
+,Notifications - Emails,,Remove by Gameball for email's footer (Not available now),,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Notifications - SMS,Page access,Access SMS Page,,,Engagement,Data Presentation,,Basic,,,,,,No,No,No,Yes,,,,Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales)
+,Notifications - SMS,Action,Activate/Deactivate SMS,,,Engagement,Channel,SMS,Full,,,,,,No,No,No,Yes,,,,Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales)
+,Notifications - SMS,Action,SMS Triggers,,,Engagement,Targeting,,Full,,,,,,NA,NA,NA,Yes,,,,Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales)
+,Notifications - SMS,Limitation,Edit SMS Script Text,,,Engagement,Channel,Customization,Full,,,,,,NA,NA,NA,Yes,,,,Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales)
+,Notifications - SMS,Limitation,Add Placeholders To Text,,,Engagement,Personalization,,Full,,,,,,NA,NA,NA,Yes,,keep old text,,Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales)
+15,Analytics,Page access,Member Analytics,,,Visibility,Analytics,,Advanced,"Performance, Optimisation",0,No,No,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+15,Analytics,Page access,Points & Rewards ,,,Visibility,Analytics,,Advanced,"Performance, Optimisation",0,No,No,,No,No,Yes,Yes,,,,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+15,Analytics,Page access,Purchase Behaviour ,,,Visibility,Analytics,,Full,"Performance, Optimisation",0,No,No,,No,No,No,Yes,,,,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+15,Analytics,Page access,Campaign performance,,,Visibility,Analytics,,Full,"Performance, Optimisation",0,No,No,,No,No,No,Yes,,,,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+,Analytics,,Referral Analysis,,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+,Analytics,,Tiers Performance [Planned],,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+,Analytics,,Download Report ,,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+,Analytics,,Apply Date Filter,,,,,,,,,,,,,,,,,,,3 months,3 months,unlimited,unlimited,unlimited,unlimited,3 months,3 months,unlimited,unlimited
+,Analytics,,Apply Tag Filter,,,,,,,,,,,,,,,,,,,No,No,No,Yes,Yes,Yes,No,No,No,Yes
+16,Apps,Page access,Access Apps Page,,,Productivity,Integrations,, Basic,depends on app,,Yes,Partial,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Apps,,Shopify Flow (New),,5/12/2024,,,,,,,,,,,,,,,,,Yes,Yes (Except Send Event Action),Yes (Except Send Event Action),Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Apps,Limitation,Zapier Integration,,,Productivity,Integrations,,Advanced,,,,,,Yes,Yes,Yes,Yes,,,,,,,,,,,,,
+16,Apps,Limitation,Integration with Apps,,,Productivity,Integrations,,Full,depends on app,1,Yes,Partial,,No,1,2,Unlimited,,deactivate extra,,No,Unlimited,Unlimited,Unlimited,Unlimited,Unlimited,No,1 app,3 apps,Unlimited
+17,Admin Settings | General,Page access,Access General tab,,,Productivity,Data Presentation,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+17,Admin Settings | General,Action,Timezone,,,Productivity,Operations,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+17,Admin Settings | General,Action,Currency,,,Productivity,Operations,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+17,Admin Settings | General,Action,Dashboard Language,,,Productivity,Operations,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+17,Admin Settings | General,Page access,Import System Config,,,Productivity,Operations,, Basic,,,,,,,,,,,,,,,,,Yes,Yes,,,,
+17,Admin Settings | General,Action,Export,,,Productivity,Operations,, Basic,,,,,,,,,,,,,,,,,Yes,Yes,,,,
+17,Admin Settings | General,Action,Import ,,,Productivity,Operations,, Basic,,,,,,,,,,,,,,,,,Yes,Yes,,,,
+17,Admin Settings | General,Page access,Reset Data,,,Productivity,Data Presentation,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+17,Admin Settings | General,Action,Reset All Customers,,,Productivity,Operations,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+17,Admin Settings | General,Action,Reset Everything,,,Productivity,Operations,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+17,Admin Settings | Customers,Page access,Edit Program Participantion,,,Productivity,Data Presentation,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+17,Admin Settings | Customers,Page access,Access Customer tags,,,Productivity,Data Presentation,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+17,Admin Settings | Customers,Action,Create new tags,,,Engagement,Targeting,,Advanced,,,,,,Yes,Yes,Yes,Yes,,,,Yes (Limit 15),Yes (Limit 15),Yes (Limit 15),Yes (Limit 15),Yes (Limit 15),Yes (Limit 15),Yes (Limit 15),Yes (Limit 15),Yes (Limit 15),Yes (Limit 15)
+17,Admin Settings | Customers,Page access,Access Profile attributes page,,,Productivity,Data Presentation,, Basic,,,,,,No,No,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+17,Admin Settings | Customers,Action,Create new attribute,,,Engagement,Targeting,,Advanced,,,,,,No,No,Yes,Yes,,,,No,No,No,Yes,Yes,Yes,No,No,No,Yes
+,Admin Settings | Communication,,Generic Frequency cap ,,10/14/2024,,,,,,,,,,,,,,,,,No,No,No,Yes,No,Yes,No,No,No,Yes
+,Admin Settings | Communication,,Custom Frequency cap per channel ,,10/14/2024,,,,,,,,,,,,,,,,,No,No,No,Yes,No,Yes,No,No,No,Yes
+,Admin Settings | Communication,,Include/Exclude Transactional Messages,,10/14/2024,,,,,,,,,,,,,,,,,No,No,No,Yes,No,Yes,No,No,No,Yes
+17,Admin Settings | Integration,Action,Account Integration,,,Productivity,Operations,, Basic,,,,,,No,No,Yes,Yes,,,,No,No,No,Yes,Yes,Yes,No,No,No,Yes
+17,Admin Settings | Integration,Action,Mobile App Integration ,,,Productivity,Integrations,,Full,,,,,,No,No,No,Yes,,,,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Admin Settings | Integration,Action,POS integration (Non-Shopify),,,,,,,,,,,,,,,,,,,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+17,Admin Settings | Integration,Page access,SMS Config,,,Productivity,Data Presentation,, Basic,,,,,,No,No,No,Yes,,,,Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Addon X with CTA (Contact Sales),Popup (Contact Support),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales)
+,Admin Settings | Integration,,Products page,,,,,,,,,,,,,,,,,,,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Admin Settings | Integration,,Coupon Configuration,,,,,,,,,,,,,,,,,,,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Admin Settings | Integration,Page access,Access Events Page,,,Productivity,Data Presentation,, Basic,,,,,,No,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Admin Settings | Integration,Action,Create new events,,,Engagement,Targeting,,Advanced,,,,,,No,No,Yes,Yes,,,,No,No,No,Yes,Yes,Yes,No,No,No,Yes
+17,Admin Settings | Integration,Action,Activate Shopify POS,,,Engagement,Omnichannel,,Advanced,,,,,,No,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Hidden (NA),Hidden (NA),No,Yes,Yes,Yes
+17,Admin Settings | Integration,Limitation,POS Locations,,,Engagement,Omnichannel,,Full,,,,,,NA,1,2,Unlimited,,,,,,,,,,,,,
+17,Admin Settings | Integration,Action,Edit WordPress Configurations,,,Productivity,Operations,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Admin Settings | Domain,Page access,Domains,,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Popup (Contact Sales),Yes,No,No,Yes,Yes
+20,Admin Settings | Domain,Page access,Merchant,,,Engagement,Multi-brand and Omnichannel,,Full,,,,,,No,No,No,No,,,,Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales),Hidden (Sales)
+17,Admin Settings | Users,Page access,Access Accounts/users page,,,Productivity,Data Presentation,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+17,Admin Settings | Users,Action,Create new user/seats (Recently Updated),,,Productivity,Operations,,Advanced,,,,,,No,No,Yes,Yes,,,,Limited (2 users),Limited (2 users),Limited (5 users),Limited (10 users),"Limited (5 users) 
+Popup (Contact Sales)","Limited (10 users) 
+Popup (Contact Sales)",Yes,Yes,Yes,Yes
+,Admin Settings | Users,Limitation,User roles,,,,,,,,,,,,,,,,,,,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+,Settings | Workspaces,Limitation,Create workspace (Recently Updated),,,,,,,,,,,,,,,,,,,No,No,No,Hidden (Sales),Hidden (Sales),"Addon 
+To open contact Tech",No,No,No,Hidden (Sales)
+18,Settings | Account,Page access,Change Password,,,Productivity,Data Presentation,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+18,Settings | Account,Action,Save,,,Productivity,Operations,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+18,Settings | Account,Page access,Communication Preference,,,Productivity,Data Presentation,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+18,Settings | Account,Action,Unsubscribe,,,Productivity,Operations,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+18,Settings | Account,Action,Change frequency,,,Productivity,Operations,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+18,Settings | Billing,Page access,Access Billing,,,Productivity,Data Presentation,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+18,Settings | Billing,Action,Change Plan,,,Productivity,Operations,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,Yes,Yes,Hidden (Sales),Yes,Yes,Yes,Yes
+,Settings | Billing,Action,Change MCC Quota,,,,,,,,,,,,,,,,,,,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Yes,Hidden (Sales),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+18,Settings | Billing,Action,Add New Card,,,Productivity,Operations,, Basic,,,,,,Non-Shopify Only,Non-Shopify Only,Non-Shopify Only,Non-Shopify Only,,,,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,Settings | Billing,Page access,See plan price,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Hidden (Sales),Yes,Yes,Yes,Yes
+,Settings | Billing,Page access,See Estimated monthly cost,,,,,,,,,,,,,,,,,,,Yes,Yes,Yes,Yes,Yes,Hidden (Sales),Yes,Yes,Yes,Yes
+,Settings | Billing,Page access,See Invoices,,,,,,,,,,,,,,,,,,,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Yes,Hidden (Sales),Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+18,Settings | Billing,Action,Cancel,,,Productivity,Operations,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA),Yes,Yes,Hidden (NA),Hidden (NA),Hidden (NA),Hidden (NA)
+,API Access,Action,Customer API,,,Engagement,Customization,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,No,No,Manual Addon (199$/mo),Yes,Yes,Yes,No,No,Manual Addon (SAR 749/mo),Yes
+,API Access,Action,Event API,,,Engagement,Customization,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,No,No,,Yes,Yes,Yes,No,No,,Yes
+,API Access,Action,Transaction API,,,Engagement,Customization,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,No,No,,Yes,Yes,Yes,No,No,,Yes
+,API Access,Action,Order API,,,Engagement,Customization,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,No,No,,Yes,Yes,Yes,No,No,,Yes
+,API Access,Action,Action API,,,Engagement,Customization,, Basic,,,,,,Yes,Yes,Yes,Yes,,,,No,No,,Yes,Yes,Yes,No,No,,Yes
+,API Access,Action,Referral Data API,,,,,,,,,,,,,,,,,,,No,No,,Yes,Yes,Yes,No,No,,Yes
+,API Access,Action,Notifications API,,,Engagement,Customization,,Full,,,,,,No,No,No,Yes,,,,No,No,,Yes,Yes,Yes,No,No,,Yes
+,API Access,Action,Configurations API,,,Engagement,Customization,,Full,,,,,,No,No,No,Yes,,,,No,No,,Yes,Yes,Yes,No,No,,Yes
+,API Access,Action,Leaderboard API,,,Engagement,Customization,,Full,,,,,,No,No,No,Yes,,,,No,No,,Yes,Addon L1,Popup (Contact Support),No,No,,Yes
+,API Access,Action,OTP API,,,,,,,,,,,,,,,,,,,No,No,,Yes,No,Yes,No,No,,Yes
+,API Access,Action,Batches API,,,Engagement,Customization,,Full,,,,,,No,No,No,Yes,,,,No,No,,Yes,No,Yes,No,No,,Yes
+,Customer Support,,Email Support,,,,,,,,,,,,,,,,,,,,,,,Yes,Yes,,,,
+,Customer Support,,Chat Support,,,,,,,,,,,,,,,,,,,,,,,Yes,Yes,,,,
+,Customer Support,,24/7 Priority Chat Support,,,,,,,,,,,,,,,,,,,,,,,Yes,Yes,,,,
+,Customer Support,,Dedicated Account Manager,,,,,,,,,,,,,,,,,,,,,,,"Yes, starting from 15k MAC",Yes,,,,
+,Customer Support,,Slack support channel,,,,,,,,,,,,,,,,,,,,,,,No,Yes,,,,
+,Customer Support,,Quarterly business reviews,,,,,,,,,,,,,,,,,,,,,,,"Yes, starting from 15k MAC",Yes,,,,
