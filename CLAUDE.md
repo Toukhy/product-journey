@@ -120,31 +120,62 @@ After the user approves the final story:
 
 1. **Save locally** — Write the completed user story as a `.md` file in the `output/` folder with naming: `user-story-[feature-slug]-[date].md`
 
-2. **Create in Azure DevOps** — Use the Azure DevOps REST API to create a User Story work item:
+2. **Create in Azure DevOps** — Use the Azure DevOps REST API to create a User Story work item on the **Kanban Q3** board in the **New** column at the **top**.
 
 Read the `.env` file to get `AZURE_DEVOPS_ORG`, `AZURE_DEVOPS_PROJECT`, and `AZURE_DEVOPS_PAT`.
 
-Use this curl command to create the work item:
+#### Step A: Create the work item
+
+Set the Area Path and Iteration Path to `Gameball Main Project\Kanban Q3` so it appears on the Kanban Q3 board. The state `New` maps to the "New" column.
 
 ```bash
 curl -X POST \
   "https://dev.azure.com/{ORG}/{PROJECT}/_apis/wit/workitems/\$User%20Story?api-version=7.1" \
   -H "Content-Type: application/json-patch+json" \
-  -H "Authorization: Basic $(echo -n :{PAT} | base64)" \
+  -u ":{PAT}" \
   -d '[
     {"op":"add","path":"/fields/System.Title","value":"{TITLE}"},
-    {"op":"add","path":"/fields/System.Description","value":"{DESCRIPTION_HTML}"}
+    {"op":"add","path":"/fields/System.Description","value":"{DESCRIPTION_HTML}"},
+    {"op":"add","path":"/fields/System.AreaPath","value":"Gameball Main Project\\Kanban Q3"},
+    {"op":"add","path":"/fields/System.IterationPath","value":"Gameball Main Project\\Kanban Q3"},
+    {"op":"add","path":"/fields/System.State","value":"New"}
   ]'
 ```
 
-Where:
+#### Step B: Move to top of the New column
+
+After creating the work item, reorder it to position 0 (top) on the board using the team's reorder endpoint. Use the work item `id` from Step A's response:
+
+```bash
+curl -X PUT \
+  "https://dev.azure.com/{ORG}/{PROJECT}/Kanban%20Q3/_apis/work/boards/Stories/workitems?api-version=7.1-preview.1" \
+  -H "Content-Type: application/json" \
+  -u ":{PAT}" \
+  -d '[{"id":{WORK_ITEM_ID},"column":"New","order":0}]'
+```
+
+If the reorder API fails, try the alternative approach — set `Microsoft.VSTS.Common.StackRank` to `0` on the work item to push it to the top:
+
+```bash
+curl -X PATCH \
+  "https://dev.azure.com/{ORG}/{PROJECT}/_apis/wit/workitems/{WORK_ITEM_ID}?api-version=7.1" \
+  -H "Content-Type: application/json-patch+json" \
+  -u ":{PAT}" \
+  -d '[{"op":"add","path":"/fields/Microsoft.VSTS.Common.StackRank","value":0}]'
+```
+
+#### Variable reference:
 - `{ORG}` = value of AZURE_DEVOPS_ORG from .env
-- `{PROJECT}` = value of AZURE_DEVOPS_PROJECT from .env (URL-encoded)
+- `{PROJECT}` = value of AZURE_DEVOPS_PROJECT from .env (URL-encoded for URLs: `Gameball%20Main%20Project`)
 - `{PAT}` = value of AZURE_DEVOPS_PAT from .env
 - `{TITLE}` = the feature title
 - `{DESCRIPTION_HTML}` = the full user story content converted to HTML (Azure DevOps uses HTML in description fields). Convert the markdown to HTML — use `<h2>` for sections, `<ul><li>` for lists, `<table>` for tables, `<br>` for line breaks, `<strong>` for bold.
+- `{WORK_ITEM_ID}` = the `id` field from the Step A response
 
-After creating, show the user the URL to the new work item: `https://dev.azure.com/{ORG}/{PROJECT}/_workitems/edit/{ID}` (the ID is in the API response as `id`).
+#### After creating:
+- Show the user the URL: `https://dev.azure.com/{ORG}/{PROJECT}/_workitems/edit/{ID}`
+- Also show the board link: `https://dev.azure.com/gameballers/Gameball%20Main%20Project/_boards/board/t/Kanban%20Q3/Stories`
+- Confirm it was placed at the top of the New column
 
 If the API call fails, show the error and offer to just save the markdown file locally instead.
 
