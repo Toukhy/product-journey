@@ -1,91 +1,81 @@
 # Azure DevOps User Story Template
 
 ## Title
-{Clear, concise title describing the feature or improvement}
+{Clear, concise title — what is being added or changed}
 
 ---
 
 ## User Story
-**As a** {type of user / role}
-**I want** {what the user wants to do}
-**So that** {the value or outcome}
+**As a** {role}
+**I want** {capability}
+**So that** {outcome / value}
 
 ---
 
 ## Description
-{Explain the current situation and the problem or limitation.}
-
-{Describe the proposed change or new functionality at a high level.}
-
-{Include context such as impacted modules, APIs, configurations, or users.}
+{2–4 sentences max. State the current limitation, what is changing, and what modules are affected.
+Do not repeat the acceptance criteria here. Focus on context a developer needs to understand the "why".}
 
 ---
 
 ## Acceptance Criteria
 
-### Functional Requirements
-- {Describe the core behavior the system must support}
-- {List supported actions, inputs, or scenarios}
-- {Clarify scope and boundaries}
+{Write as a flat checklist. Each item should be a testable, unambiguous statement.
+Only group into sub-sections if the feature has genuinely distinct areas (e.g., UI vs. API vs. plan gating).
+Do not add sections just to fill the template — if it is a small feature, 3–5 bullet points is enough.
+If it is a large feature, group logically but only include groups that add real criteria.}
+
+- [ ] {What the system must do — specific and testable}
+- [ ] {What the user can do — from their perspective}
+- [ ] {Edge case or error behavior — only if non-obvious}
 
 ---
 
-### Behavior & Logic
-- {Explain how the feature behaves under normal conditions}
-- {Describe rules, conditions, or evaluation logic}
-- {Include ordering, prioritization, or calculation rules if applicable}
+## Plans
+{Only list plans where behavior differs. If all plans behave the same, one line is enough.}
+
+| Platform | Plans |
+|----------|-------|
+| Shopify | {e.g., Pro, Guru} |
+| Salla | {e.g., Pro, Guru} |
+| Self-Serve | {e.g., Growth, Enterprise} |
 
 ---
 
-### Validation & Error Handling
-- {Define validation rules}
-- {Describe expected error behavior for invalid inputs}
-- {Clarify edge cases}
+## Notes
+{Optional. Only include if there are real open questions, constraints, or decisions deferred to dev/design.
+If there is nothing meaningful to add, remove this section entirely.}
+- {Assumption or open question}
 
 ---
 
-### Data Accuracy & Consistency
-- {Define how data should be stored, retrieved, or calculated}
-- {Ensure data matches source-of-truth systems}
-- {Explain update or refresh behavior if applicable}
+<!--
+GUIDANCE FOR WRITING THIS STORY (remove before publishing):
 
----
+DESCRIPTION LENGTH:
+- UI tweak / small addition → 1–2 sentences
+- New setting or configuration option → 2–3 sentences
+- New module or integration → 3–4 sentences with impacted modules listed
 
-### UI / API Behavior (if applicable)
-- {Describe UI elements, API responses, or payload expectations}
-- {Mention visibility, accessibility, or usability considerations}
-- {Ensure consistency across views, endpoints, or exports}
+ACCEPTANCE CRITERIA:
+- Small feature (UI tweak, new config, minor addition): flat list, 3–7 items, no sub-sections
+- Medium feature (new workflow, new page, API changes): flat list or 2–3 logical groups, 8–15 items
+- Large feature (new module, integration, major flow change): grouped by area (e.g., Configuration,
+  Behavior, Error Handling, Security), 15–25 items max
 
----
+ONLY add these groups when the feature actually requires them:
+- "Error Handling" → only if there are non-trivial failure states
+- "Security & Permissions" → only if access control is part of the feature scope
+- "Performance" → only if there is a latency, scale, or load requirement specific to this feature
+- "Backward Compatibility" → only if the change could break existing behavior
 
-### Backward Compatibility
-- {State that existing functionality should not break}
-- {Clarify behavior for existing data or configurations}
+ALWAYS include:
+- What the user/merchant can do (functional)
+- What the system does in response (behavioral)
+- Plan gating (which plans get access)
 
----
-
-### Performance & Scalability
-- {Define performance expectations if relevant}
-- {Mention impact on large datasets, high traffic, or frequent updates}
-
----
-
-### Security & Permissions (if applicable)
-- {Define who can access or perform the action}
-- {Describe authorization or role-based restrictions}
-
----
-
-### Documentation
-- {List documentation updates required}
-- {Mention examples, API references, or user guides}
-
----
-### Plans
-- {List of plans that shopify Users can access this feature}
-- {List of plans that Salla Users can access this feature}
-- Enterprise
-
----
-## Notes / Assumptions
-- {Optional: assumptions, constraints, or open questions}
+NEVER include (unless directly relevant):
+- Generic statements like "existing functionality must not break" with no specifics
+- Documentation requirements (handled separately)
+- Obvious validations (e.g., "required fields must not be empty") unless the field has non-standard rules
+-->

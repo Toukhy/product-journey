@@ -81,25 +81,18 @@ Then ask: **Is the idea validated after this research?**
 - If **Yes** → Proceed.
 
 ### Step 7: Story Writing
-Generate a complete user story following the template in `context/user-story-template.md`. Fill in ALL sections:
+Generate a user story following the template in `context/user-story-template.md`. Apply the guidance embedded in the template — the depth and structure should match the feature's actual complexity:
 
-1. **Title**: Clear, concise title
-2. **User Story**: "As a [persona], I want [feature], so that [benefit]"
-3. **Description**: Current situation, proposed change, impacted modules
-4. **Acceptance Criteria** — fill in ALL subsections:
-   - **Functional Requirements**: Core behaviors the system must support
-   - **Behavior & Logic**: How it works under normal conditions, rules, evaluation logic
-   - **Validation & Error Handling**: Validation rules, error behavior, edge cases
-   - **Data Accuracy & Consistency**: Storage, retrieval, calculations
-   - **UI / API Behavior**: UI elements, API responses, accessibility
-   - **Backward Compatibility**: Existing functionality must not break
-   - **Performance & Scalability**: Performance expectations, large dataset impact
-   - **Security & Permissions**: Access control, role-based restrictions
-   - **Documentation**: Required doc updates, API references, user guides
-   - **Plans**: Which Shopify plans, which Salla plans, Enterprise
-5. **Notes / Assumptions**: Constraints, open questions
+- **Small feature** (UI tweak, new config, minor addition): short description (1–2 sentences), flat AC checklist (3–7 items), no sub-sections
+- **Medium feature** (new workflow, new page, API change): description (2–3 sentences), flat or lightly grouped AC (8–15 items)
+- **Large feature** (new module, major integration, new flow): description (3–4 sentences with impacted modules), grouped AC by area only where meaningful (15–25 items max)
 
-Reference the plan-features.csv to ensure the tier distribution follows existing patterns.
+Only include AC groups (Error Handling, Security, Performance, etc.) when the feature genuinely introduces requirements in that area. Never add a section just to fill the template.
+
+Always include: what the user can do, what the system does in response, and plan gating.
+Never include: generic backward-compatibility statements, documentation requirements, or obvious validations.
+
+Reference plan-features.csv to ensure tier distribution follows existing patterns.
 
 Present the full story and let the user edit/approve.
 
