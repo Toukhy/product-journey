@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:docs.talon.one)",
+      "WebFetch(domain:www.talon.one)",
+      "WebFetch(domain:docs.capillarytech.com)",
+      "WebFetch(domain:www.ecom.capillarytech.com)",
+      "Bash(curl:*)",
+      "Bash(cd:*)"
+    ]
+  }
+}
